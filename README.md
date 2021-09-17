@@ -4,6 +4,8 @@ I am using this repository to store my notes about various AWS services that I h
 
 In the pipeline, we build a system that works from end to end. We monitor new information being uploaded into the log directory of the EC2 host. The kinesis stream picks that data up. AWS Lambda inserts that data into a DynamoDB table. We can now imagine a mobile application that talks directly to the DynamoDB instance and returns the information.
 
+The pipeline file : Pipeline building manual.
+
 
 The notes created by me consist of : 
 * AWS Lambda
